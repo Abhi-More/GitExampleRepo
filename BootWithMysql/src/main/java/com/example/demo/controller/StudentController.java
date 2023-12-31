@@ -36,7 +36,7 @@ public class StudentController {
 	public String deleteStudent(@PathVariable("roll") int roll)
 	{
 		repo.deleteById(roll);
-		return "Deleted Studnt";
+		return "Student Deleted";
 	}
 	
 	@PutMapping("/student")
